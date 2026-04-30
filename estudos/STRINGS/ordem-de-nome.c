@@ -1,3 +1,25 @@
+/******************************************************************************
+ * DESCRIÇÃO: 
+ * Programa de ordenação de nomes em ordem alfabética (A-Z).
+ * 
+ * FUNCIONAMENTO:
+ * 1. Entrada: O usuário define a quantidade de nomes e digita cada um deles.
+ * 2. Processamento: O programa percorre a lista comparando os nomes par a par.
+ * 3. Troca: Se um nome vem depois do outro alfabeticamente, eles trocam de lugar.
+ * 4. Saída: Exibe a lista completa devidamente organizada no console.
+ * 
+ * O QUE CONTÉM NESTE CÓDIGO:
+ * - Algoritmo de Ordenação: Implementação do método Bubble Sort.
+ * - Biblioteca <string.h>: Uso de strcmp() para comparar e strcpy() para copiar strings.
+ * - Matriz de Caracteres: Manipulação de listas de strings (char lista[][50]).
+ * - Alocação Estática/Dinâmica: Uso de variável 'n' para definir o tamanho da matriz.
+ * - Procedimentos: Divisão modular entre as funções de ordenar e exibir.
+ * 
+ * Autor: Amanda Aziz
+ * Data: 23 de Abril de 2026
+ *******************************************************************************/
+
+
 #include <stdio.h>
 #include <string.h>
 
