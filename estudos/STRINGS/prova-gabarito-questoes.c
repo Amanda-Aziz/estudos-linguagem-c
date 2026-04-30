@@ -15,7 +15,7 @@
  * - Lógica de Avaliação: Sistema de nota de corte (mínimo de 70 acertos).
  * - Modularização: Divisão em 5 funções principais para organização da lógica.
  * 
- * Autor: Amanda Aziz
+ * Autor/User: Amanda-Aziz
  * Data: 30 de Abril de 2026
  *******************************************************************************/
 
