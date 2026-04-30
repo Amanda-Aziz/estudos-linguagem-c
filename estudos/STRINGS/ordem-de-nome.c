@@ -15,7 +15,7 @@
  * - Alocação Estática/Dinâmica: Uso de variável 'n' para definir o tamanho da matriz.
  * - Procedimentos: Divisão modular entre as funções de ordenar e exibir.
  * 
- * Autor: Amanda Aziz
+ * Autor/User: Amanda-Aziz
  * Data: 23 de Abril de 2026
  *******************************************************************************/
 
