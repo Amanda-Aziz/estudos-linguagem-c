@@ -1,3 +1,25 @@
+/******************************************************************************
+ * DESCRIÇÃO: 
+ * Sistema de criptografia e descriptografia baseado em substituição de vogais.
+ * 
+ * FUNCIONAMENTO:
+ * 1. Menu: O usuário escolhe entre cifrar ou decifrar uma mensagem.
+ * 2. Criptografia: Substitui vogais por símbolos específicos (@, $, &, #, %).
+ * 3. Descriptografia: Realiza o processo inverso, devolvendo as vogais originais.
+ * 4. Tratamento: Converte caracteres para minúsculo antes da troca e limpa o buffer.
+ * 
+ * O QUE CONTÉM NESTE CÓDIGO:
+ * - Estrutura Switch-Case: Usada para o mapeamento eficiente dos caracteres.
+ * - Manipulação de Strings: Funções personalizadas para varredura e limpeza de texto.
+ * - Biblioteca <ctype.h>: Uso de tolower() para padronizar a entrada.
+ * - Conversão de Dados: Uso de atoi() para transformar a opção do menu em inteiro.
+ * - Definição de Constantes: Uso de #define TAM para gerenciar o limite da frase.
+ * 
+ * Autor/User: Amanda-Aziz
+ * Data: 26 de Abril de 2026
+ *******************************************************************************/
+
+
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h> 
